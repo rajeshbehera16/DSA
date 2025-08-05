@@ -1,8 +1,4 @@
-/**
- * @param {number[]} nums
- * @param {number} k
- * @return {number}
- */
+
 var findKthLargest = function(nums, k) {
     const minValue = Math.min(...nums);
     const maxValue = Math.max(...nums);
